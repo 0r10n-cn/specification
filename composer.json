@@ -1,0 +1,21 @@
+{
+  "name": "orion-ua/specification",
+  "type": "library",
+  "description": "Martin Fowler`s specification for PHP",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "0r10n",
+      "email": "orion.dev.uk@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2 | ^8"
+  },
+  "autoload": {
+    "psr-0": {
+      "OrionUa/Specification": "src/"
+    }
+  }
+}
